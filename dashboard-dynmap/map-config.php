@@ -8,9 +8,11 @@
     );
 
 ?>
-<p>This is an example dashboard widget!</p>
-<p>This is the configuration part of the widget, and can be found and edited from <tt><?php echo __FILE__ ?></tt></p>
+<p>This is the DiscantCraft dynmap dashboard widget!</p>
+<p>Please enter the map URL down here: <tt><?php echo __FILE__ ?></tt></p>
 <input type="text" name="number" />
+<?php
 /**
  * Changed by Xander Smeets at 2-6-2014
  */
+ ?>
