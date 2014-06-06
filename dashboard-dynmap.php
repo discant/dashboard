@@ -3,7 +3,7 @@
 Plugin Name: Dynmap dashboard widget
 Plugin URI: https://github.com/discant/dashboard-dynmap
 Description: A WordPress dashboard widget to show a dynmap
-Version: 0.1.2
+Version: 0.1.3
 Author: DiscantCraft
 Author URI: http://discantcraft.net/
 License: GPLv2 or later
