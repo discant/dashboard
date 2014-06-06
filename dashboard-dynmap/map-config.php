@@ -3,7 +3,7 @@
     self::update_dashboard_widget_options(
             self::wid,                                  //The  widget id
             array(                                      //Associative array of options & default values
-                'example_number' => $number,
+                'map_url' => $number,
             )
     );
 
@@ -14,5 +14,6 @@
 <?php
 /**
  * Changed by Xander Smeets at 2-6-2014
+ * Changed by Xander Smeets at 6-6-2014
  */
  ?>
