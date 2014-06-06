@@ -5,4 +5,4 @@
  * Changed by XSmeets at 2-6-2014.
  */
 ?>
-<iframe src="self::wid" width="426" height="130"></iframe>
+<iframe src="<?php echo self::get_dashboard_widget_option(self::wid, 'map_url'); ?>" width="426" height="130"></iframe>
