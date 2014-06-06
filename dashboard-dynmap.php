@@ -8,6 +8,12 @@ Author: DiscantCraft
 Author URI: http://discantcraft.net/
 License: GPLv2 or later
 */
+require 'plugin-updates/plugin-update-checker.php';
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://raw.githubusercontent.com/discant/dl/master/update-plugins.json',
+    __FILE__,
+    'dynmap-dashboard-widget'
+);
 add_action('wp_dashboard_setup', array('My_Dashboard_Widget','init') );
 
 class My_Dashboard_Widget {
