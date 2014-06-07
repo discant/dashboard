@@ -139,6 +139,7 @@ class My_Dashboard_Widget {
 
 }
     /**
-     * Changed by Xander Smeets at 2-6-2014
+     * Changed by Xander Smeets at 2-6-2014.
      * Changed by Xander Smeets at 6-6-2014.
+     * Changed by Xander Smeets at 7-6-2014.
      */
